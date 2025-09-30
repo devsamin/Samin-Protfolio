@@ -35,15 +35,13 @@ import BSPILogo from './assets/education_logo/collage_logo.jpeg'
 import satkania_sch_logo from './assets/education_logo/satkania_school.jpg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/Gthub_profile_detactaive.png';
+import dragonNewsLogo from './assets/work_logo/dragon.png';
 import Task_management from './assets/work_logo/task_management.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
 import library_management_logo from './assets/work_logo/library_management.png';
 import trust_bank from './assets/work_logo/trast_bank.png';
 import Car_Shop from './assets/work_logo/Car_Shop.png';
 import Food_Search from './assets/work_logo/Food Search.png';
 import Find_Job from './assets/work_logo/find_job.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
 
 
 export const SkillsInfo = [
@@ -207,16 +205,16 @@ export const education = [
       github: "https://github.com/devsamin/Bank-Management",
       webapp: "https://trust-bank.onrender.com/",
     },
-    {
-      id: 1,
-      title: "GitHub Profile Detective",
-      description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
-    },
+{
+  id: 1,
+  title: "Dragon News Project",
+  description:
+    "A modern and fully responsive news portal built with React.js, styled using Tailwind CSS and DaisyUI. The application integrates Firebase Authentication for secure user login and registration, ensuring a smooth authentication flow. It delivers categorized news content with a clean, user-friendly interface, making it easy for readers to explore and engage with the latest updates.",
+  image: dragonNewsLogo, // replace with your actual logo import
+  tags: ["React JS", "Tailwind CSS", "DaisyUI", "Firebase Auth"],
+  github: "https://github.com/devsamin/Dragon-News",
+  webapp: "https://dragon-news-17140.web.app/",
+},
     {
     id: 4,
     title: "Library Management System",
@@ -237,26 +235,8 @@ export const education = [
   github: "https://github.com/devsamin/Car-Shop",
   webapp: "https://car-shop-yexv.onrender.com/",
 },
-{
-  id: 3,
-  title: "Movie Recommendation App",
-  description:
-  "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-  image: movierecLogo,
-  tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-  github: "https://github.com/codingmastr/Movie-Recommendation-App",
-  webapp: "https://movie-recommendation-app-jet.vercel.app/",
-},
-{
-  id: 8,
-  title: "Image Background Remover",
-  description:
-  "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-  image: removebgLogo,
-  tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-  github: "https://github.com/codingmastr/Image-Background-Remover",
-  webapp: "https://removeyourbg.netlify.app/",
-},
+
+
 {
 id: 7,
 title: "Task Management",
