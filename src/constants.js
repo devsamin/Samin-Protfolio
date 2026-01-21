@@ -42,7 +42,9 @@ import trust_bank from './assets/work_logo/trast_bank.png';
 import Car_Shop from './assets/work_logo/Car_Shop.png';
 import Food_Search from './assets/work_logo/Food Search.png';
 import Find_Job from './assets/work_logo/find_job.png';
-
+import Local_Market from './assets/work_logo/localMart (2).png';
+import Tic_Tac_Toe from './assets/work_logo/Tic-Tac-Toe-01-20-2026_09_00_AM.png';
+import Calculator from './assets/work_logo/calculator.png';
 
 export const SkillsInfo = [
   {
@@ -186,7 +188,28 @@ export const education = [
   
   export const projects = [
     {
-    id: 0,
+  id: 1,
+  title: "Local Market",
+  description:
+    "A full-featured local marketplace platform built with a Django REST Framework backend and a React frontend. Users can browse products, manage carts, place orders, and make secure payments through a modern, responsive interface.",
+  image: Local_Market,
+  tags: ["Django REST Framework", "React", "API", "JWT Auth", "Stripe", "PostgreSQL"],
+  github: "https://github.com/devsamin/Local-Market-Backend",
+  webapp: "https://local-market-coral.vercel.app/",
+},
+{
+  id: 2,
+  title: "Tic Tac Toe Game",
+  description:
+    "A modern and responsive Tic Tac Toe game built using HTML, CSS, and JavaScript. It features solo mode with AI, two-player mode, player name input, and a clean, professional UI.",
+  image: Tic_Tac_Toe,
+  tags: ["HTML", "CSS", "JavaScript", "Game Logic", "Responsive Design", "AI"],
+  github: "https://github.com/devsamin/Tic-Tac-Toe-Game",
+  webapp: "https://tic-tac-toe-game-eta-flax.vercel.app/",
+},
+
+    {
+    id: 3,
     title: "Find Job",
     description:
       "A job search platform with a Django REST Framework backend providing APIs and a frontend built with raw JavaScript, CSS, and HTML. Users can search and explore job listings efficiently through a clean, responsive interface.",
@@ -196,7 +219,7 @@ export const education = [
     webapp: "https://find-job-lyart.vercel.app/",
     },
     {
-      id: 2,
+      id: 4,
       title: "Trust Bank",
       description:
         "A full-featured bank management system built with Django. It offers secure account creation, transaction management, balance tracking, and user authentication to ensure smooth and reliable banking operations.",
@@ -206,7 +229,7 @@ export const education = [
       webapp: "https://trust-bank.onrender.com/",
     },
 {
-  id: 1,
+  id: 5,
   title: "Dragon News Project",
   description:
     "A modern and fully responsive news portal built with React.js, styled using Tailwind CSS and DaisyUI. The application integrates Firebase Authentication for secure user login and registration, ensuring a smooth authentication flow. It delivers categorized news content with a clean, user-friendly interface, making it easy for readers to explore and engage with the latest updates.",
@@ -215,8 +238,18 @@ export const education = [
   github: "https://github.com/devsamin/Dragon-News",
   webapp: "https://dragon-news-17140.web.app/",
 },
+{
+  id: 6,
+  title: "React Calculator",
+  description:
+    "A modern and responsive calculator web application built using React and popular UI libraries. It supports basic and advanced operations with a clean, user-friendly interface and smooth interactions.",
+  image: Calculator,
+  tags: ["React", "Tailwind CSS", "Framer Motion", "JavaScript"],
+  github: "https://github.com/devsamin/react-calculator",
+  webapp: "https://react-calculator-samin.vercel.app/",
+},
     {
-    id: 4,
+    id: 7,
     title: "Library Management System",
     description:
       "A Django-based web application for managing library operations, including book inventory, member registration, book issuance, and return tracking. Designed for efficiency and ease of use in library environments.",
@@ -226,7 +259,7 @@ export const education = [
     webapp: "https://library-management-system-1-pmcs.onrender.com/",
   },
   {
-  id: 5,
+  id: 8,
   title: "Car Shop",
   description:
     "A Django-based car sales management system that allows users to browse available cars, view detailed specifications, and manage sales operations efficiently. Includes admin panel for managing car listings and customer inquiries.",
@@ -238,7 +271,7 @@ export const education = [
 
 
 {
-id: 7,
+id: 9,
 title: "Task Management",
 description:
   "A Django-based task management platform with full CRUD functionality. Users can create, edit, update, and delete tasks (posts), view detailed task stats, and manage profiles. Includes user authentication, admin panel for management, and RESTful APIs for integration.",
@@ -248,7 +281,7 @@ github: "https://github.com/devsamin/Task-Management",
 webapp: "https://task-management-co20.onrender.com/",
 },
     {
-    id: 6,
+    id: 10,
     title: "Food Search",
     description:
       "A simple and interactive web application for searching food recipes using an external API. Built with HTML, CSS, Bootstrap, and JavaScript, it provides a clean UI and real-time search functionality.",
