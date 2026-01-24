@@ -25,7 +25,7 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import E1logo from './assets/company_logo/CP_logo.jpg';
+import E1logo from './assets/company_logo/universeSoftTech.jfif';
 import E2logo from './assets/company_logo/DSA.jpg';
 import E3logo from './assets/company_logo/coding.png';
 
@@ -96,22 +96,24 @@ export const SkillsInfo = [
 
   export const experiences = [
     {
-    id: 0,
-    img: E1logo,
-    role: "Problem Solving Guide",
-    company: "Self-Driven",
-    date: "January 2024 - Present",
-    desc: "Guiding learners through problem solving and algorithmic thinking. Providing advice and support whenever they face challenges, helping improve their coding skills and logical reasoning.",
-    skills: [
-      "Problem Solving",
-      "Algorithms",
-      "Data Structures",
-      "Debugging",
-      "Python",
-      "C++",
-      "JavaScript",
-    ],
-  },
+  id: 0,
+  img: E1logo,
+  role: "Full Stack Developer Intern",
+  company: "Universe Soft Tech",
+  date: "3 Months Internship",
+  desc: "Worked as a Full Stack Developer Intern, contributing to both frontend and backend development. Built and maintained web applications, collaborated with the team, fixed bugs, and improved performance while following best coding practices.",
+  skills: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Python",
+    "Django",
+    "REST API",
+    "Git",
+  ],
+},
+
   {
     id: 1,
     img: E2logo,
