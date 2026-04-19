@@ -208,7 +208,7 @@ export const projects = [
       "PostgreSQL",
     ],
     github: "https://github.com/devsamin/Football-Booking-Turf-Frontend",
-    webapp: "https://football-booking-turf-frontend-13xs.vercel.app/",
+    webapp: "https://football-turf-booking.vercel.app/",
   },
   {
     id: 2,
