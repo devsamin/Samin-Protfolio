@@ -225,7 +225,7 @@ export const projects = [
       "PostgreSQL",
     ],
     github: "https://github.com/devsamin/Local-Market-Backend",
-    webapp: "https://local-market-coral.vercel.app/",
+    webapp: "https://local-mart-gray.vercel.app/",
   },
   {
     id: 3,
